@@ -1,7 +1,10 @@
 package com.tpe.repository;
 
-import com.tpe.domain.Message;
 
+import com.tpe.domain.Message;
+import org.springframework.stereotype.Component;
+
+@Component
 public class DbRepository implements Repository{
 
     @Override
